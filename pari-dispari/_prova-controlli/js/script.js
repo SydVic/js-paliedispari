@@ -14,10 +14,24 @@ do {
 } while (userNumber < 1 || userNumber > 5 || isNaN(userNumber))
 console.log("userNumber", userNumber);
 
+// generiamo un numero random tra 1 e 5 per il pc (con funzione)
+const randomPcNumber = randomNumber(1, 5);
+console.log("randomPcNumber", randomPcNumber);
 
+// sommiamo i due numeri
+const summedNumber = userNumber + randomPcNumber;
+console.log("summedNumber", summedNumber);
 
+// stabiliamo se la somma dei due numeri è pari o dispari (con funzione)
+evenOrOdd = evenOddNumber(summedNumber);
+console.log("evenOrOdd", evenOrOdd);
 
-
+// stabiliamo chi ha vinto in base a cosa ha scelto l'utente tra pari e dispari
+if (evenOrOdd === userEvenOrOddLowerCase) {
+    console.log("Complimenti hai vinto tu!")
+} else {
+    console.log("Mi dispiace ha vinto il pc..");
+}
 
 // FUNCTIONS
 /**
