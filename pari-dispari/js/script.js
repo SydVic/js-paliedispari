@@ -1,6 +1,6 @@
 // l'utente deve scegliere pari o dispari
-const userEvenOdd = prompt("Ciao! Scegli pari o dispari..");
-console.log("userEvenOdd", userEvenOdd);
+const userEvenOrOdd = prompt("Ciao! Scegli pari o dispari..");
+console.log("userEveOrnOdd", userEvenOrOdd);
 
 // l'utente deve scegliere un numero tra 1 e 5
 const userNumber = parseInt(prompt("adesso scegli un numero tra 1 e 5.."));
@@ -19,6 +19,11 @@ evenOrOdd = evenOddNumber(summedNumber);
 console.log("evenOrOdd", evenOrOdd);
 
 // stabiliamo chi ha vinto in base a cosa ha scelto l'utente tra pari e dispari
+if (evenOrOdd === userEvenOrOdd) {
+    console.log("Complimenti hai vinto tu!")
+} else {
+    console.log("Mi dispiace ha vinto il pc..");
+}
 
 // FUNCTIONS
 /**
