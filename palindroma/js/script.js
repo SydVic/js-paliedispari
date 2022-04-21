@@ -20,4 +20,6 @@ function palindromeWord(wordToCheck) {
     console.log("wordToCheck", wordToCheck);
     // mettiamo caso che parola sia di 4 lettere, come posso fare per confrontare che wordToCheck[0] sia === a wordToCheck[3]
     // e cosi via -> wordToCheck[1] sia === a wordToCheck[2]
+
+    // oppure scompongo dall'inizio alla fine e pusho in un array e poi faccio lo stesso dalla fine all'inizio e confronto i due risultati?
 }
