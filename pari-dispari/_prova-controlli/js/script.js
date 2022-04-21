@@ -1,3 +1,4 @@
+// raccolta input utente pari o dispari con controllo e trasformazione in lower case
 let userEvenOrOdd;
 let userEvenOrOddLowerCase;
 do {
@@ -6,7 +7,17 @@ do {
 } while (userEvenOrOddLowerCase !== "pari" && userEvenOrOddLowerCase !== "dispari")
 console.log("userEvenOrOddLowerCase", userEvenOrOddLowerCase);
 
+// raccolta input utente numero da 1 a 5 con controllo
 let userNumber;
+do {
+    userNumber = parseInt(prompt("adesso scegli un numero tra 1 e 5.."));
+} while (userNumber < 1 || userNumber > 5 || isNaN(userNumber))
+console.log("userNumber", userNumber);
+
+
+
+
+
 
 // FUNCTIONS
 /**
