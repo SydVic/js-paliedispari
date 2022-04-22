@@ -2,7 +2,7 @@
 const userWord = prompt("Dimmi una parola");
 console.log("userWord",userWord);
 
-//veridfico se la parola è palindroma tramite la funzione
+//verifico se la parola è palindroma tramite la funzione
 if (palindromeWord(userWord)) {
     console.log("La parola è palindroma");
 } else {
@@ -11,7 +11,7 @@ if (palindromeWord(userWord)) {
 
 /**
  * Description the function check if the word is a palindrome word or not
- * @param {String} wordToCheck
+ * @param {String} wordToCheck the word you want to check
  * @returns {Boolean}
  */
 function palindromeWord(wordToCheck) {

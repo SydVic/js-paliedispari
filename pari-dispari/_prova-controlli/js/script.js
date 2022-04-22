@@ -2,6 +2,7 @@
 let userEvenOrOdd;
 let userEvenOrOddLowerCase;
 do {
+    // userEvenOrOdd = prompt("Ciao! Scegli pari o dispari..").toLowerCase;
     userEvenOrOdd = prompt("Ciao! Scegli pari o dispari..");
     userEvenOrOddLowerCase = userEvenOrOdd.toLowerCase();
 } while (userEvenOrOddLowerCase !== "pari" && userEvenOrOddLowerCase !== "dispari")
